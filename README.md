@@ -26,19 +26,18 @@ en el release marcado `latest`:
 
 ---
 
-## 🧭 Características por versión
+## 🧭 Versiones finales estables publicadas
+
+Solo se distribuyen aquí las versiones finales estables de cada plataforma. Builds
+intermedias/de desarrollo (1.9.0–1.13.0) se retiraron del listado público.
 
 | Versión | Windows | Android | Novedades principales |
 |---|---|---|---|
 | **1.18.1** | — *(pendiente de build)* | ✅ | Biblioteca persistente estilo Windows Media Player: cache de carátulas por carpeta, cache de listados por `mtime`, reconciliación de carpetas en paralelo, render de cola troceado (carga instantánea con bibliotecas grandes) |
 | **1.18.0** | ✅ | ✅ | Base sobre la que se apoyó la mejora de biblioteca persistente de 1.18.1 |
-| 1.13.0 | — | ✅ | Build incremental |
-| 1.11.0 | ✅ | ✅ | Build incremental |
-| 1.10.0 | ✅ | ✅ | Build incremental |
-| 1.9.0 | ✅ | ✅ | Build incremental |
 
-> Las notas detalladas de "novedades principales" para 1.9.0–1.13.0 no quedaron documentadas
-> en su momento; si vas a testear una de esas versiones puntuales, pide contexto antes.
+> El instalador de Windows para 1.18.1 aún no se ha compilado; para Windows, 1.18.0
+> es la versión estable más reciente disponible.
 
 **Funcionalidades generales de la app** (todas las versiones): reproducción MP3/FLAC/WAV/OGG/OPUS/AAC/M4A,
 ecualizador paramétrico de 10 bandas, crossfade configurable, letras sincronizadas `.lrc`,
