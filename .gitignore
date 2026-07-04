@@ -1,0 +1,5 @@
+*.exe
+*.msi
+*.apk
+*.aab
+.DS_Store
